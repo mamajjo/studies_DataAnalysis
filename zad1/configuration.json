@@ -1,0 +1,19 @@
+{
+    "chosenDataSet":"quakes",
+    "iris":{
+        "dataSourceUrl": "./data/iris.csv",
+        "testDataSize": 0.2,
+        "quantityFactors": false,
+        "numberedFirstColumn": 0,
+        "numberedLastColumn": 3,
+        "classColumn": "class"
+    },
+    "quakes":{
+        "dataSourceUrl": "./data/quakes.csv",
+        "testDataSize": 0.2,
+        "quantityFactors": false,
+        "numberedFirstColumn": 1,
+        "numberedLastColumn": 5,
+        "classColumn": "Position"
+    }
+}
